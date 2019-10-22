@@ -8,8 +8,7 @@ if (
   !isset($_POST['name']) || $_POST['name'] == '' ||
   !isset($_POST['url']) || $_POST['url'] == '' ||
   !isset($_POST['comment']) || $_POST['comment'] == '' ||
-  // !isset($_POST['category']) || $_POST['category'] == '' ||
-  !isset($_POST['indate']) || $_POST['indate'] == ''
+  !isset($_POST['category']) || $_POST['category'] == ''
 ) {
   exit('ParamError');
 }
